@@ -403,7 +403,7 @@ mod lib {
 #[doc(inline)]
 pub use crate::de::from_reader;
 #[doc(inline)]
-pub use crate::de::{from_slice, from_str, Deserializer, StreamDeserializer};
+pub use crate::de::{from_slice, from_str, Deserializer, Stream, StreamDeserializer};
 #[doc(inline)]
 pub use crate::error::{Error, Result};
 #[doc(inline)]

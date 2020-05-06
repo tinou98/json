@@ -2509,3 +2509,6 @@ where
 {
     from_trait(read::StrRead::new(s))
 }
+
+mod stream;
+pub use stream::Stream;
